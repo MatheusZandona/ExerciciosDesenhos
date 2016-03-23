@@ -12,7 +12,7 @@ public class ExC implements Desenho{
 		for (int  linha = 0; linha <= 9; linha++) {
 			for (int coluna = 0; coluna < SIZE; coluna++) {
 				if(coluna>brancos){
-					System.out.print("*");
+					System.out.print("*"); 
 				}else{
 					System.out.print(" ");
 				}
