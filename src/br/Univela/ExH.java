@@ -13,7 +13,7 @@ public class ExH implements Desenho{
 				if(linha == 0){
 					System.out.print("*");
 				}else{
-					if((linha == coluna) || (coluna == brancos-1)){
+					if((linha == coluna) || (coluna == brancos-1)){ 
 						System.out.print("*");
 					}else{
 						if(linha == SIZE -1){

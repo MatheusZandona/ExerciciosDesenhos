@@ -13,7 +13,7 @@ public class ExI implements Desenho{
 		
 		for (int linha = 0; linha < SIZE; linha++) {
 			for (int coluna = 0; coluna < SIZE; coluna++) {
-				if(linha == 0 || linha == (SIZE -1)){
+				if(linha == 0 || linha == (SIZE -1)){ 
 					System.out.print("*");
 				}else{
 					if((coluna == (SIZE-1)) || (linha == coluna) || (coluna == brancos-1) || (coluna == 0)){

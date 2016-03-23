@@ -14,7 +14,7 @@ public class Principal {
 		lista.add(new ExC());
 		lista.add(new ExD());
 		lista.add(new ExE());
-		lista.add(new ExF());
+		lista.add(new ExF()); 
 		lista.add(new ExG());
 		lista.add(new ExH());
 		lista.add(new ExI());

@@ -11,7 +11,7 @@ public class ExF implements Desenho{
 //		int brancos = 9;
 		
 		for (int linha = 0; linha < SIZE; linha++) {
-			for (int coluna = 0; coluna < SIZE; coluna++) {
+			for (int coluna = 0; coluna  < SIZE; coluna++) {
 				if(linha == 0){
 					System.out.print("*");
 				}else{

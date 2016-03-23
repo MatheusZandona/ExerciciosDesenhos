@@ -8,7 +8,7 @@ public class ExD implements Desenho{
 	@Override
 	public void desenhar() {
 		
-		System.out.println("D)\n\n"); 
+		System.out.println("D)\n\n");  
 		
 		int brancos = 9;
 		for (int linha = 0; linha < SIZE; linha++) {

@@ -11,7 +11,7 @@ public class ExJ implements Desenho{
 		System.out.println("J)\n\n");
 
 		
-		for (int linha = 0; linha <= (SIZE / 2); linha++) {
+		for (int linha = 0; linha <= (SIZE / 2); linha++) { 
 			for (int coluna = SIZE; coluna >= 0; coluna--) {
 				if(coluna > linha && coluna < SIZE - linha ){
 					System.out.print("*");
